@@ -38,10 +38,10 @@ h2 { color: var(--deep); font-size: clamp(2rem, 4vw, 3.4rem); letter-spacing: -.
 .site-nav a { position: relative; padding: .4rem 0; }
 .site-nav a::after { content: ''; position: absolute; right: 0; bottom: .15rem; left: 0; height: 1px; background: var(--rose); transform: scaleX(0); transform-origin: right; transition: transform .2s; }
 .site-nav a:hover::after, .site-nav a:focus-visible::after { transform: scaleX(1); transform-origin: left; }
-.cart-chip { display: inline-flex; align-items: center; gap: .4rem; padding: .45rem .7rem; color: var(--deep); border: 1px solid var(--line); border-radius: 3rem; background: transparent; font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; }
+.cart-chip { display: inline-flex; align-items: center; gap: .4rem; padding: .45rem .7rem; color: var(--deep); border: 1px solid var(--line); border-radius: 3rem; background: 00000026; font-size: .68rem; letter-spacing: .06em; text-transform: uppercase; }
 .cart-chip span { font-size: 1.1rem; line-height: 0; transform: rotate(180deg); }
 .cart-chip b { display: grid; min-width: 1.25rem; height: 1.25rem; place-items: center; color: white; border-radius: 50%; background: var(--rose); font-size: .65rem; }
-.menu-toggle { display: none; border: 0; background: transparent; }
+.menu-toggle { display: none; border: 0; background: 00000026; }
 
 .section { padding: clamp(4.8rem, 9vw, 8rem) max(1.5rem, calc((100vw - 1130px) / 2)); }
 .section-soft { background: var(--cream); }
