@@ -56,7 +56,7 @@ h2 { color: var(--deep); font-size: clamp(2rem, 4vw, 3.4rem); letter-spacing: -.
 .hero::before { content: ''; position: absolute; z-index: -2; width: min(74vw, 760px); aspect-ratio: 1; border: 1px solid rgba(178, 138, 85, .4); border-radius: 50%; transform: translateY(7%); }
 .hero::after { content: ''; position: absolute; z-index: -3; inset: 0; opacity: .25; background-image: radial-gradient(#c5a97f 1px, transparent 1px); background-size: 18px 18px; mask-image: linear-gradient(to bottom, transparent, black 28%, black 76%, transparent); }
 .hero-inner { position: relative; z-index: 2; }
-.hero .eyebrow { margin-bottom: 1.25rem; color: #6c7f70; }
+.hero .eyebrow { margin-bottom: 1.25rem; color: #ffffff; }
 .hero h1 { margin: 0; color: var(--deep); font-size: clamp(3.5rem, 9vw, 7.6rem); letter-spacing: .065em; text-indent: .065em; text-shadow: 0 3px 0 rgba(255,255,255,.65); }
 .hero h1 em { display: inline-block; padding: 0 .08em; color: var(--rose); font-size: .65em; font-style: italic; font-weight: 400; vertical-align: .08em; }
 .hero-date { margin: 1.1rem 0 2rem; color: #eeeeee; font-family: var(--serif); font-size: 1.55rem; letter-spacing: .4em; text-indent: .4em; }
